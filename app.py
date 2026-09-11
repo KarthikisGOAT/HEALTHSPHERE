@@ -1460,53 +1460,53 @@ elif st.session_state.page == "Healthy Living":
         unsafe_allow_html=True
     )
 
-    topics = [
-        (
-            "🥗 Nutrition",
-            "A balanced eating pattern can include a variety of vegetables,
-            fruits, whole grains, protein sources and other nutrient-rich foods.
-            Individual nutritional needs vary."
-        ),
-        (
-            "😴 Sleep",
-            "Regular, sufficient sleep supports physical and mental health.
-            Keeping a consistent sleep schedule and having a comfortable,
-            quiet sleep environment can help."
-        ),
-        (
-            "🏃 Physical Activity",
-            "Regular physical activity can support heart health, bone health,
-            strength, mobility and mental wellbeing. Activity should be
-            appropriate for a person's age and abilities."
-        ),
-        (
-            "🧼 Hygiene",
-            "Hand hygiene, respiratory etiquette and appropriate food hygiene
-            can reduce the spread of many infections."
-        ),
-        (
-            "🧠 Mental Wellbeing",
-            "Mental health is part of overall health. Staying connected with
-            trusted people, maintaining healthy routines and seeking
-            professional support when needed can be beneficial."
-        ),
-        (
-            "☀️ Sun Protection",
-            "Limiting excessive UV exposure, using appropriate protective
-            clothing and following local sun-safety guidance can help protect
-            skin."
-        ),
-        (
-            "🚭 Tobacco",
-            "Avoiding tobacco and exposure to tobacco smoke reduces the risk
-            of many serious health conditions."
-        ),
-        (
-            "💧 Hydration",
-            "Fluid needs vary depending on age, activity, climate and health.
-            Water is a common way to maintain hydration."
-        )
-    ]
+ topics = [
+    (
+        "🥗 Nutrition",
+        "A balanced eating pattern can include a variety of vegetables, "
+        "fruits, whole grains, protein sources and other nutrient-rich foods. "
+        "Individual nutritional needs vary."
+    ),
+    (
+        "😴 Sleep",
+        "Regular, sufficient sleep supports physical and mental health. "
+        "Keeping a consistent sleep schedule and having a comfortable, "
+        "quiet sleep environment can help."
+    ),
+    (
+        "🏃 Physical Activity",
+        "Regular physical activity can support heart health, bone health, "
+        "strength, mobility and mental wellbeing. Activity should be "
+        "appropriate for a person's age and abilities."
+    ),
+    (
+        "🧼 Hygiene",
+        "Hand hygiene, respiratory etiquette and appropriate food hygiene "
+        "can reduce the spread of many infections."
+    ),
+    (
+        "🧠 Mental Wellbeing",
+        "Mental health is part of overall health. Staying connected with "
+        "trusted people, maintaining healthy routines and seeking "
+        "professional support when needed can be beneficial."
+    ),
+    (
+        "☀️ Sun Protection",
+        "Limiting excessive UV exposure, using appropriate protective "
+        "clothing and following local sun-safety guidance can help protect "
+        "skin."
+    ),
+    (
+        "🚭 Tobacco",
+        "Avoiding tobacco and exposure to tobacco smoke reduces the risk "
+        "of many serious health conditions."
+    ),
+    (
+        "💧 Hydration",
+        "Fluid needs vary depending on age, activity, climate and health. "
+        "Water is a common way to maintain hydration."
+    )
+]
 
     cols = st.columns(2)
 
